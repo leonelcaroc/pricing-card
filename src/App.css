@@ -1,0 +1,16 @@
+#first-card-container,
+#second-card-container {
+  max-width: 25rem;
+  min-width: 20rem;
+  flex: 1;
+}
+
+.active-container {
+  border: 1px solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(139, 0, 0, 1),
+      rgba(139, 0, 0, 0)
+    )
+    1;
+}
